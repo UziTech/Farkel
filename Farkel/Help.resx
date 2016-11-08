@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>
+A game for two to six players.
+
+OVERVIEW OF THE GAME
+FARKEL is a high-score game in which players roll dice for pionts.  When it's your turn, you roll all six dice, click on only the dice you want to use for points, then re-roll the remaining dice.  Some scoring dice must be removed after every roll.  If you can eventually make all six dice count for score, you may re-roll all six and keep playing.  If none of the dice you roll can count for score, you lose your turn and any points you made during that round.
+
+OBJECT OF THE GAME
+To get scoring dice on every roll, and to have the highest score after a player gets 10,000 points or more.
+
+TO GET STARTED
+Each player must roll at least 500 points during one round to get into the game.  The player's game-entry score and subsequent scores are added up below their name.
+
+1. Enter the name of the players by clicking on the player's name and entering the new player's name, and so on.
+
+2. Click the "H" next to the players name to change if you want it to be a computer player. Click it again to make it human.
+
+3. The first player clicks "Roll!" to rolls the dice.  When the dice stop rolling the scorable dice will automatically be selected(have a green background).  They may unselect any dice they do not want to score by clicking on them.  If they don't roll any ones, fives or other scoring combinations, their turn is over.
+
+SCORING
+ONES = 100 each
+FIVES = 50 each
+3 ONES = 300
+3 TWOS = 200
+3 THREES = 300
+3 FOURS = 400
+3 FIVES = 500
+3 SIXES = 600
+4 of a kind = 1000
+5 of a kind = 2000
+6 of a kind = 3000
+STRAIGHT 1-6 = 1500
+THREE PAIRS = 1500
+TWO TRIPLETS = 2500
+
+4. only ones and fives count by themselves. Other numbers count as three-of-a-kind or more but not pairs.
+
+5. Dice can only count for score once. The dice that have already been scored (have blue backgrounds) cannot be added to newly rolled dice for a bigger score.
+
+6. Some dice must be selected after every role. You don't have to select all the dice the count, only the ones you want to use for score.  Continue rolling and selecting dice.
+
+7. If you roll no scoring dice, your turn is over and you lose all the points you rolled on that round. This is called a FARKEL.
+
+8. You may stop rolling at any time, take your points and click "End Turn" if you're afraid of rolling a FARKEL.
+
+9. When one player reaches 10,000 points, all other players get one more turn to try to beat them.
+
+10. HIGHEST SCORE OVER 10,000 WINS THE GAME
+
+HIGH-STAKES
+
+11. When a player clicks "End Turn" a check box will appear with the words "High Stakes". If the next player chooses they may click the check box.  If they do they roll the remaining dice that the last player left unscored.
+     
+12.  If they roll scoring dice they get the scoring dice plus the round score from the previous player.  They may also keep rolling dice for a bigger score, but If they roll no scoring dice there turn is over and they recieve no score.
+
+STRATEGIE
+Don't keep single fives for score unless you have to.  If you have two fives only keep one.  The fives you don't keep for score could easily turn into ones and give you 50 extra points.</value>
+  </data>
+</root>

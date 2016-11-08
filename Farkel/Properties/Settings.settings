@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Farkel.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="player1" Description="Player 1 Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tony</Value>
+    </Setting>
+    <Setting Name="player2" Description="Player 2 Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tyler</Value>
+    </Setting>
+    <Setting Name="player3" Description="Player 3 Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cassy</Value>
+    </Setting>
+    <Setting Name="player4" Description="Player 4 Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Angela</Value>
+    </Setting>
+    <Setting Name="player5" Description="Player 5 Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Gary</Value>
+    </Setting>
+    <Setting Name="player6" Description="Player 6 Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Lori</Value>
+    </Setting>
+    <Setting Name="Comp1" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Comp2" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Comp3" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Comp4" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Comp5" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Comp6" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="players" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

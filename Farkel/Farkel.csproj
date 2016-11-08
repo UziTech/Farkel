@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D7902455-49F0-41A0-B65D-027A47DD93CD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Farkel</RootNamespace>
+    <AssemblyName>Farkel</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>Resources\Farkel.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>E6F516845AB15BB904B519F0FA5F3AB42F0F742D</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Farkel_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>ftp://www.uzitech.com/files/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://www.UziTech.com/files/</InstallUrl>
+    <UpdateUrl>http://www.UziTech.com/files/</UpdateUrl>
+    <TargetCulture>en-US</TargetCulture>
+    <ProductName>Farkel</ProductName>
+    <PublisherName>UziTech</PublisherName>
+    <MinimumRequiredVersion>1.0.0.9</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>17</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Farkel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farkel.Designer.cs">
+      <DependentUpon>Farkel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farkel.resx">
+      <DependentUpon>Farkel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fdie.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adie.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rdie.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kdie.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edie.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ldie.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Farkel_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grab.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grabbing.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Grab.cur" />
+    <EmbeddedResource Include="Grabbing.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\Farkel.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bdie.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gdie.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wdie.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1die.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2die.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3die.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4die.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5die.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6die.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
